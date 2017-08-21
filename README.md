@@ -1,3 +1,13 @@
 # falcon-for-windows
 monitor on windows platform
 基于open—falcon构建windows平台的监控客户端程序。
+#依赖
+python >= 2.6
+psutil
+requests
+
+#部署方法
+1.根据实际部署情况，修改脚本开头的配置参数
+2.修改 graph 的 mysql 编码为utf8，以支持中文的。由于 windows 的网卡有可能存在中文，所以这一步很重要！
+3.测试：python windows_collect.py
+4.放入windows计划任务完事
