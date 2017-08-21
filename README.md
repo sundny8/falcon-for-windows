@@ -3,8 +3,8 @@ monitor on windows platform
 基于open—falcon构建windows平台的监控客户端程序。
 ## 依赖
 python >= 2.6<br>
-psutil(https://pypi.python.org/pypi/psutil)<br>
-requests(https://pypi.python.org/pypi/requests)<br>
+[psutil](https://pypi.python.org/pypi/psutil)<br>
+[requests](https://pypi.python.org/pypi/requests)<br>
 
 ## 部署方法
 1.根据实际部署情况，修改脚本开头的配置参数。<br>
